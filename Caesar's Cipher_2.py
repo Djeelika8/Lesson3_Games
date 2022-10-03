@@ -6,7 +6,7 @@ def shifr_tsezarya():
     alfavit_eng = 'abcdefghijklmnopqrstuvwxyz'*20
     alfavit_eng_big = alfavit_eng.upper()
     d = input('шифрование(1) или дешифрование(2)?  ').strip()
-    while not d.isdigit() or  d not in ('1', '2'):  # проверка введенного числа
+    while not d.isdigit() or d not in ('1', '2'):  # проверка введенного числа
         d = input('Нужно ввести целое число 1 или 2 ')
     d = int(d)
     k = input('Каков шаг сдвига вправо? ').strip()
