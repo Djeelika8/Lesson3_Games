@@ -2,7 +2,7 @@
 from random import randint
 
 def is_valid(n, dip):                                      # проверка ЦЕЛОЕ ли число
-    return n.isdigit() and 1 <= int(n) <= dip
+    return n.isdigit() and 1 <= int(n) <= dip**3
 
 
 def Guess_the_numbers():                            # Игра - "Угадайка чисел"
